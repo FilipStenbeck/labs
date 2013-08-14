@@ -1,0 +1,49 @@
+x-kunskapsbar {
+  cursor: pointer;  
+}
+
+footer > x-kunskapsbar {
+    font-family:fantasy;
+}
+
+body {
+    overflow:hidden;
+}
+
+.well {
+    font-weight: bold;
+    font-size: 40px;
+    min-height: 20px;
+    padding: 19px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;  
+     line-height: 3em;
+}
+
+html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100%; }
+
+.container {
+    height: auto;
+    min-height: 100%;
+}
+
+.content {
+      text-align: center;
+}
+
+
+footer {
+ color: gray;    
+ text-align: center;    
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+}
+
+

@@ -1,4 +1,4 @@
-labs
+labs and demos
 ====
 
-Small labs made for a training course
+Small labs and demos made for a diffrenty training courses and presentations or just for fun

@@ -1,0 +1,20 @@
+<element name="x-kunskapsbar">
+    <section>
+        <h1> HiQ Kunskapsbaren</h1>
+  </section>
+  <script>
+      if (this !== window) {
+        var h1 = this.querySelector('h1');
+        this.register({
+            prototype: {
+                readyCallback: function() {
+                this.innerHTML = h1.innerHTML + ' ' + new Date().getFullYear();
+                }, 
+                sayHi : function() {
+                    alert('Hi Stockholm, how are you doing?');
+                } 
+            }
+        });
+      }
+  </script>
+</element>
